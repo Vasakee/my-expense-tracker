@@ -1,0 +1,55 @@
+.item ,.amount{
+    height: 0.4cm;
+    width: 4cm;
+    border-radius: 10px 0px 10px 0px;
+    background-color: aqua;
+}
+.item:focus {
+    background-color: aquamarine;
+} 
+.amount:focus{
+    background-color: aquamarine;
+}
+.type{
+    height: 0.5cm;
+    width: 2cm;
+    border-radius: 10px 0px 10px 0px;
+    background-color: aqua;
+}
+.submit{
+   background-color: cadetblue;
+   border-radius: 5px;
+}
+.submit:hover{
+    background-color: blue;
+}
+.entire{
+    background-color: black;
+    color: white;
+    width: 12cm ;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    border-radius: 10px;
+}
+.package{
+   /*background: linear-gradient(200deg, blue, green, red  );*/
+     border-radius: 3px 6px 3px 6px;
+    justify-content: space-between;
+    background-color: tomato;
+    width: 10cm;
+    margin-left: 1cm;
+    margin-bottom: 0.5cm;
+}
+.thing{ 
+    margin-right: 1cm;
+}
+.price{
+    margin-right: 1cm;
+}
+.gain{
+    margin-right: 1cm;
+}
+.styles{
+    margin-bottom: 0.6cm;
+}
